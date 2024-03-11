@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedido</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="/Pedido/script.js"></script>
+</head>
+<body>
+  <header>
+    <div class="btn-group" role="group" aria-label="Basic example">
+      <button onclick="window.location.href='/Home/index.html'" type="button" class="btn btn-dark btntst">Menu</button>
+      <button onclick="window.location.href='/Menu/page.html'" type="button" class="btn btn-dark btntst">Cardápio</button>
+    </div>
+  </header>
+    <div id="error" class="error-modal">    
+        <p class="errorTxt">Insira um nome para começar</p>
+        <button class="error-btn" onclick="fechar()">Entendi!!!</button>
+    </div>
+    <h1>Pedido</h1>
+    <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">Nome:</label>
+        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Insira seu nome">
+      </div>
+      <button onclick="comecar()" type="button" class="btn btn-dark" id="bntComecar">Começar</button>
+      <div id="selects-div">
+        <h2>Olá <span id="nomePrint"></span>, vamos começar seu pedido!!!</h2>
+        <h3>Pães</h3>
+        <select class="form-select" aria-label="Default select example" id="selectPrato">
+          <option selected>Selecione seu pão</option>
+          <option value="Baguete">Baguete</option>
+          <option value="Herbs & Cheese">Herbs & Cheese</option>
+          <option value="Achatado">Achatado</option>
+          <option value="Italiano">Italiano</option>
+          <option value="Graos">Grãos de Trigo</option>
+        </select>
+        <h3>Proteina</h3>
+        <select class="form-select" aria-label="Default select example" id="selectBebida">
+          <option selected>Selecione sua proteina</option>
+          <option value="Bife">Bife</option>
+          <option value="Frango">Frango</option>
+          <option value="Presunto">Presunto</option>
+          <option value="Tuna">Tuna</option>
+          <option value="Almondega">Almondega</option>
+        </select>
+        <h3>Queijo</h3>
+        <select class="form-select" aria-label="Default select example" id="selectSobremesa">
+          <option selected>Selecione seu queijo</option>
+          <option value="Americano">Americano</option>
+          <option value="Cheddar Ralado">Cheddar Ralado</option>
+          <option value="Mozzarella">Mozzarella</option>
+          <option value="Pepper Jack">Pepper Jack</option>
+          <option value="Provolone">Provolone</option>
+        </select>
+        <h3>Cookie</h3>
+        <select class="form-select" aria-label="Default select example" id="selectTst">
+          <option selected>Selecione seu cookie</option>
+          <option value="Chocolate">Chocolate</option>
+          <option value="Chocolate Branco">Chocolate Branco</option>
+          <option value="Chocolate Duplo">Chocolate Duplo</option>
+          <option value="Framboesa">Framboesa</option>
+          <option value="Aveia">Aveia e Passas</option>
+        </select>
+        <h3>Refrigerante</h3>
+        <select class="form-select" aria-label="Default select example" id="selectBat">
+          <option selected>Selecione seu refri</option>
+          <option value="Coca Lata">Coca Lata</option>
+          <option value="Coca 1L">Coca 1L</option>
+          <option value="Fanta Lata">Fanta Lata</option>
+          <option value="Guarana Lata">Guarana Lata</option>
+          <option value="Guarana Lata Zero">Guarana Lata Zero</option>
+        </select>
+        <div>
+          <button type="button" onclick="calcularTotal()" class="btn btn-success">Fazer pedido</button>
+          <button type="button" onclick="limpar()" class="btn btn-secondary">Limpar</button>
+        </div>
+       <div class="preCompra">
+        <span class="badge bg-dark">Total:</span>
+        <span class="badge bg-danger" id="resultado"></span>
+       </div>
+       <div id="pedido-pronto" class="pronto">
+         <h4>Pão:</h4>
+         <p id="prato-pronto"></p>
+         <h4>Proteina:</h4>
+         <p id="bebida-pronto"></p>
+         <h4>Quejo:</h4>
+         <p id="sobremesa-pronto"></p>
+         <h4>Cookie:</h4>
+         <p id="tst-pronto"></p>
+         <h4>Refrigerante:</h4>
+         <p id="bat-pronto"></p>
+         <button type="button" onclick="enviar()" class="btn btn-secondary">Enviar</button>
+
+       </div>
+       
+     </div> 
+    </body>
+</html>

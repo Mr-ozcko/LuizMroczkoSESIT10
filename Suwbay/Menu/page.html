@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cardápio</title>
+    <link rel="stylesheet" href="/Menu/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <div class="btn-group" role="group" aria-label="Basic example">
+            <button onclick="window.location.href='/Home/index.html'" type="button" class="btn btn-dark">Home</button>
+            <button onclick="window.location.href='/Pedido/page.html'" type="button" class="btn btn-dark">Pedido</button>
+          </div>
+          <div class="scroll">
+            <ul>
+              <li><a class="link" href="#paes">Pães</a></li>
+              <li><a class="link" href="#proteinas">Proteinas</a></li>
+              <li><a class="link" href="#queijos">Queijos</a></li>
+              <li><a class="link" href="#cookies">Cookies</a></li>
+              <li><a class="link" href="#refri">Refrigerante</a></li>
+            </ul>
+          </div>
+    </header>
+    <h1 class="title">Cardápio</h1>
+    <div id="paes">
+        <h2 class="subTitle">Pães</h2>
+        <div class="wrapCards">
+            <div class="card" style="width: 18rem;">
+                <img src="/Images/paesBagete.jpg" class="card-img-top" alt="pao baguete">
+                <div class="card-body">
+                  <h5 class="card-title">Baguete</h5>
+                  <p class="card-text">R$ 13.80</p>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="/Images/paesErvasQueijo.avif" class="card-img-top" alt="pao herbs and cheese">
+                <div class="card-body">
+                  <h5 class="card-title">Herbs & Cheese</h5>
+                  <p class="card-text">R$ 15.00</p>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="/Images/paesAchatado.avif" class="card-img-top" alt="pao achatado">
+                <div class="card-body">
+                  <h5 class="card-title">Achatado</h5>
+                  <p class="card-text">R$ 10.99</p>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="/Images/paesIlianoBranco.avif" class="card-img-top" alt="pao italiano">
+                <div class="card-body">
+                  <h5 class="card-title">Italiano</h5>
+                  <p class="card-text">R$ 8.99</p>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="/Images/paesGraosTrigo.avif" class="card-img-top" alt="pao graos de trigo">
+                <div class="card-body">
+                  <h5 class="card-title">Grãos de Trigo</h5>
+                  <p class="card-text">12.75</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="proteinas">
+        <h2 class="subTitle">Proteinas</h2>
+        <div class="wrapCards">
+            <div class="card" style="width: 18rem;">
+                <img src="/Images/proteinaBife.avif" class="card-img-top" alt="bife">
+                <div class="card-body">
+                  <h5 class="card-title">Bife</h5>
+                  <p class="card-text">R$ 8.10</p>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="/Images/proteinaFrango.avif" class="card-img-top" alt="frango">
+                <div class="card-body">
+                  <h5 class="card-title">Frango</h5>
+                  <p class="card-text">R$ 6.50</p>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="/Images/proteinaPresunto.avif" class="card-img-top" alt="presunto">
+                <div class="card-body">
+                  <h5 class="card-title">Presunto</h5>
+                  <p class="card-text">R$ 9.00</p>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="/Images/proteinaTuna.avif" class="card-img-top" alt="tuna">
+                <div class="card-body">
+                  <h5 class="card-title">Tuna</h5>
+                  <p class="card-text">R$ 7.80</p>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="/Images/proteinaAlmondega.avif" class="card-img-top" alt="almondega">
+                <div class="card-body">
+                  <h5 class="card-title">Almondegas</h5>
+                  <p class="card-text">R$ 10.99</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="queijos">
+        <h2 class="subTitle">Queijos</h2>
+        <div class="wrapCards">
+            <div class="card" style="width: 18rem;">
+                <img src="/Images/queijosAmericano.avif" class="card-img-top" alt="queijo americano">
+                <div class="card-body">
+                  <h5 class="card-title">Americano</h5>
+                  <p class="card-text">R$ 5.50</p>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="/Images/queijosCheddar.avif" class="card-img-top" alt="queijo cheddar ralado">
+                <div class="card-body">
+                  <h5 class="card-title">Cheddar Ralado</h5>
+                  <p class="card-text">R$ 6.70</p>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="/Images/queijosMozzarella.avif" class="card-img-top" alt="queijo mozzarella">
+                <div class="card-body">
+                  <h5 class="card-title">Mozzarella</h5>
+                  <p class="card-text">R$ 8.90</p>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="/Images/queijosPepperJack.avif" class="card-img-top" alt="queijo pepper jack">
+                <div class="card-body">
+                  <h5 class="card-title">Pepper Jack</h5>
+                  <p class="card-text">R$ 7.65</p>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="/Images/queijosProvolone.avif" class="card-img-top" alt="queijo provolone">
+                <div class="card-body">
+                  <h5 class="card-title">Provolone</h5>
+                  <p class="card-text">R$ 6.40</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="cookies">
+        <h2 class="subTitle">Cookies</h2>
+        <div class="wrapCards">
+            <div class="card" style="width: 18rem;">
+                <img src="/Images/cookiesChocolate.avif" class="card-img-top" alt="cookie de chocolate">
+                <div class="card-body">
+                  <h5 class="card-title">Chocolate</h5>
+                  <p class="card-text">R$ 4.25</p>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="/Images/cookiesChocolateBranco.avif" class="card-img-top" alt="cookie de chocolate branco">
+                <div class="card-body">
+                  <h5 class="card-title">Chocolate Branco</h5>
+                  <p class="card-text">R$ 4.50</p>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="/Images/cookiesDuploChocolate.avif" class="card-img-top" alt="cookie de chocolate duplo">
+                <div class="card-body">
+                  <h5 class="card-title">Chocolate Duplo</h5>
+                  <p class="card-text">R$ 5.00</p>               
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="/Images/cookiesFramboesa.avif" class="card-img-top" alt="cookie de framboesa">
+                <div class="card-body">
+                  <h5 class="card-title">Framboesa</h5>
+                  <p class="card-text">R$ 7.00</p>               
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="/Images/cookiesPassaAveia.avif" class="card-img-top" alt="cookie de aveia e passas">
+                <div class="card-body">
+                  <h5 class="card-title">Aveia e Passas</h5>
+                  <p class="card-text">R$ 6.75</p>
+                  
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="refri">
+        <h2 class="subTitle">Refrigerante</h2>
+        <div class="wrapCards">
+            <div class="card" style="width: 18rem;">
+                <img src="/Images/refriCocaLata.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Coca Lata</h5>
+                  <p class="card-text">R$ 6.50</p>                 
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="/Images/refriCoca1l.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Coca 1L</h5>
+                  <p class="card-text">R$ 9.99</p>                  
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="/Images/refriFanta.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Fanta Lata</h5>
+                  <p class="card-text">R$ 6.00</p>                  
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="/Images/refriGuarana.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Guarana Lata</h5>
+                  <p class="card-text">R$ 5.50</p>                 
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="/Images/refriGuaranaZero.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Guarana Lata Zero</h5>
+                  <p class="card-text">R$ 5.50</p>                
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
