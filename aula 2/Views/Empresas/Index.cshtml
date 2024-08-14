@@ -1,0 +1,33 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+@model List<aulas.Models.Empresa>
+
+    <h1 class="title">Lista de Empresas</h1>
+    <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+
+            <table class="table">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Nome</th>
+                <th>Categoria</th>
+                <th>Endereço</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var empresa in Model){
+            <tr>
+                <td>@empresa.Id</td>
+                <td>@empresa.Nome</td>
+                <td>@empresa.Cat</td>
+                <td>@empresa.End</td>
+            </tr>
+            }
+        </tbody>
+    </table>
+    </div>
+
+<a href="@Url.Action("Create", "Empresas")" class="btn btn-primary">Adicionar Empresa</a>
+

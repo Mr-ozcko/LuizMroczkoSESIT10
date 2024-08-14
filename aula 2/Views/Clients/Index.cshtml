@@ -1,0 +1,30 @@
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+@model List<aulas.Models.Client>
+<div class="text-center">
+
+    <h3>Detalhes dos clientes</h3>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Nome</th>
+                <th>Empresa</th>
+                <th>E-mail</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var Client in Model){
+            <tr>
+                <td>@Client.Id</td>
+                <td>@Client.Nome</td>
+                <td>@Client.Emp</td>
+                <td>@Client.Mail</td>
+            </tr>
+            }
+        </tbody>
+    </table>
+</div>
+<a href="@Url.Action("Create", "Clients")" class="btn btn-primary">Adicionar Cliente</a>

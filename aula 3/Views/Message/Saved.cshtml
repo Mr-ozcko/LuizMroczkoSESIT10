@@ -1,0 +1,18 @@
+@model List<message.Models.Message>
+
+<h2>Lista de Mensagens</h2>
+
+@foreach(var Message in Model){
+    <div class="col">
+        <div class="card mb-4 rounded-3 shadow-sm">
+            <div class="card-body">
+                <h4 class="card-title pricing-card-title">De: @Message.Name</h4>
+                <h5 class="card-title pricing-card-title">Para: @Message.Dest</h5>
+                <ul class="list-unstyled mt-3 mb-4">
+                        <li>@Message.Content</li>
+                        <li><small>[@Message.Email]</small></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+}
