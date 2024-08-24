@@ -58,3 +58,34 @@ E:\proj\obj\Debug\net8.0\refint\proj.dll
 E:\proj\obj\Debug\net8.0\proj.pdb
 E:\proj\obj\Debug\net8.0\proj.genruntimeconfig.cache
 E:\proj\obj\Debug\net8.0\ref\proj.dll
+c:\Users\Luiz\Desktop\LuizMroczkoSESIT10\aula 3\bin\Debug\net8.0\appsettings.Development.json
+c:\Users\Luiz\Desktop\LuizMroczkoSESIT10\aula 3\bin\Debug\net8.0\appsettings.json
+c:\Users\Luiz\Desktop\LuizMroczkoSESIT10\aula 3\bin\Debug\net8.0\proj.staticwebassets.runtime.json
+c:\Users\Luiz\Desktop\LuizMroczkoSESIT10\aula 3\bin\Debug\net8.0\proj.exe
+C:\Users\Luiz\Desktop\LuizMroczkoSESIT10\aula 3\bin\Debug\net8.0\proj.deps.json
+C:\Users\Luiz\Desktop\LuizMroczkoSESIT10\aula 3\bin\Debug\net8.0\proj.runtimeconfig.json
+c:\Users\Luiz\Desktop\LuizMroczkoSESIT10\aula 3\bin\Debug\net8.0\proj.dll
+c:\Users\Luiz\Desktop\LuizMroczkoSESIT10\aula 3\bin\Debug\net8.0\proj.pdb
+c:\Users\Luiz\Desktop\LuizMroczkoSESIT10\aula 3\obj\Debug\net8.0\proj.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\Luiz\Desktop\LuizMroczkoSESIT10\aula 3\obj\Debug\net8.0\proj.AssemblyInfoInputs.cache
+c:\Users\Luiz\Desktop\LuizMroczkoSESIT10\aula 3\obj\Debug\net8.0\proj.AssemblyInfo.cs
+c:\Users\Luiz\Desktop\LuizMroczkoSESIT10\aula 3\obj\Debug\net8.0\proj.csproj.CoreCompileInputs.cache
+c:\Users\Luiz\Desktop\LuizMroczkoSESIT10\aula 3\obj\Debug\net8.0\proj.MvcApplicationPartsAssemblyInfo.cache
+c:\Users\Luiz\Desktop\LuizMroczkoSESIT10\aula 3\obj\Debug\net8.0\proj.RazorAssemblyInfo.cache
+c:\Users\Luiz\Desktop\LuizMroczkoSESIT10\aula 3\obj\Debug\net8.0\proj.RazorAssemblyInfo.cs
+c:\Users\Luiz\Desktop\LuizMroczkoSESIT10\aula 3\obj\Debug\net8.0\proj.sourcelink.json
+c:\Users\Luiz\Desktop\LuizMroczkoSESIT10\aula 3\obj\Debug\net8.0\staticwebassets.build.json
+c:\Users\Luiz\Desktop\LuizMroczkoSESIT10\aula 3\obj\Debug\net8.0\staticwebassets.development.json
+c:\Users\Luiz\Desktop\LuizMroczkoSESIT10\aula 3\obj\Debug\net8.0\staticwebassets\msbuild.proj.Microsoft.AspNetCore.StaticWebAssets.props
+c:\Users\Luiz\Desktop\LuizMroczkoSESIT10\aula 3\obj\Debug\net8.0\staticwebassets\msbuild.build.proj.props
+c:\Users\Luiz\Desktop\LuizMroczkoSESIT10\aula 3\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.proj.props
+c:\Users\Luiz\Desktop\LuizMroczkoSESIT10\aula 3\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.proj.props
+c:\Users\Luiz\Desktop\LuizMroczkoSESIT10\aula 3\obj\Debug\net8.0\staticwebassets.pack.json
+c:\Users\Luiz\Desktop\LuizMroczkoSESIT10\aula 3\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+c:\Users\Luiz\Desktop\LuizMroczkoSESIT10\aula 3\obj\Debug\net8.0\scopedcss\bundle\proj.styles.css
+c:\Users\Luiz\Desktop\LuizMroczkoSESIT10\aula 3\obj\Debug\net8.0\scopedcss\projectbundle\proj.bundle.scp.css
+c:\Users\Luiz\Desktop\LuizMroczkoSESIT10\aula 3\obj\Debug\net8.0\proj.dll
+c:\Users\Luiz\Desktop\LuizMroczkoSESIT10\aula 3\obj\Debug\net8.0\refint\proj.dll
+c:\Users\Luiz\Desktop\LuizMroczkoSESIT10\aula 3\obj\Debug\net8.0\proj.pdb
+C:\Users\Luiz\Desktop\LuizMroczkoSESIT10\aula 3\obj\Debug\net8.0\proj.genruntimeconfig.cache
+C:\Users\Luiz\Desktop\LuizMroczkoSESIT10\aula 3\obj\Debug\net8.0\ref\proj.dll
